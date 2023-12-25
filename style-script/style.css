@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: Poppins, Arial, sans-serif;
 }
 
-body{
+body {
   width: 100%;
   height: 100vh;
   background: url(../media/bg.jpg);
@@ -17,7 +17,7 @@ body{
   align-items: center;
   justify-content: center;
 }
-.app{
+.app {
   position: relative;
   background-color: #ffffff1e;
   width: 90vmin;
@@ -30,11 +30,11 @@ body{
   flex-direction: column;
   align-items: center;
 }
-.app h4{
+.app h4 {
   font-size: 1.6rem;
   font-weight: 700;
 }
-form{
+form {
   width: 100%;
   height: 100%;
   display: flex;
@@ -42,17 +42,17 @@ form{
   align-items: center;
   justify-content: space-between;
 }
-form .amount{
+form .amount {
   display: flex;
   flex-direction: column;
   padding: 20px 0;
   width: 100%;
 }
-.amount p{
+.amount p {
   font-size: 1.2rem;
   padding-bottom: 3px;
 }
-.amount input{
+.amount input {
   display: flex;
   width: 100%;
   padding: 5px 10px;
@@ -65,29 +65,32 @@ form .amount{
   border-radius: 5px;
   font-size: 1.1rem;
 }
-.amount input:hover{
+.amount input:hover {
   box-shadow: 0 0 5px #14f959;
 }
-.amount input::-webkit-inner-spin-button, .amount input::-webkit-outer-spin-button{
+.amount input::-webkit-inner-spin-button,
+.amount input::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-.amount input::placeholder{
+.amount input::placeholder {
   font-weight: 500;
 }
-.dropdown{
+.dropdown {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   width: 100%;
 }
-.dropdown .from, .dropdown .to{
+.dropdown .from,
+.dropdown .to {
   display: flex;
   flex-direction: column;
 }
-.dropdown .select-container, .select-container{
+.dropdown .select-container,
+.select-container {
   display: flex;
   background-color: #aaaaaa55;
   align-items: center;
@@ -96,7 +99,7 @@ form .amount{
   padding: 0 3px;
 }
 
-.select-container select{
+.select-container select {
   position: relative;
   background-color: transparent;
   border: none;
@@ -107,22 +110,22 @@ form .amount{
   color: #fff;
   background-color: transparent;
 }
-.select-container select>option{
+.select-container select > option {
   color: #000;
 }
-img{
+img {
   width: 35px;
 }
 
-.output{
+.output {
   display: flex;
   width: 100%;
   font-weight: 400;
   padding: 20px 0;
 }
 
-#get{
-  background-color: #C21292;
+#get {
+  background-color: #c21292;
   color: #fff;
   border: none;
   font-weight: 600;
@@ -132,29 +135,19 @@ img{
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 720px){
-  .app{
+@media (min-width: 720px) {
+  .app {
     width: 55vmin;
   }
 }
 
-@media (min-width: 800px){
-  .app{
+@media (min-width: 800px) {
+  .app {
     width: 60vmin;
   }
 }
-@media (max-width: 320px){
-  .app{
+@media (max-width: 320px) {
+  .app {
     width: 90vmin;
   }
 }
