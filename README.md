@@ -36,6 +36,3 @@ If you encounter any issues or have suggestions for improvement, feel free to op
 
 This Currency Converter is released under the [MIT License](LICENSE). You are free to use, modify, and distribute the code as per the terms of the license.
 
----
-
-Feel free to adapt the README further according to your project's structure and information.
